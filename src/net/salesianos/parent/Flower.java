@@ -29,5 +29,10 @@ public class Flower {
     public void setColor(String color) {
         this.color = color;
     }
-    
+
+    @Override
+    public String toString() {
+        return "{ petalsNumber:" + petalsNumber + ", color," + color + ", BEST_SEASON," + BEST_SEASON + "}";
+    }
+
 }
